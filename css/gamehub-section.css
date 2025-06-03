@@ -1,0 +1,43 @@
+/* colors */
+.gamehub-color-1 {
+  background-color: #db21cc;
+}
+.gamehub-color-2 {
+  background-color: #801889;
+}
+.gamehub-color-3 {
+  background-color: #030552;
+}
+.gamehub-color-4 {
+  background-color: #00011f;
+  border: 1px solid #bababa;
+}
+
+.gamehub-grid {
+  display: grid;
+  grid-template-columns: 48px 18px 150px 165px 330px 20px;
+  grid-template-rows: 240px 18px 20px 50px 110px 80px;
+}
+
+.gamehub-pic-1 {
+  grid-column: 3 / -1;
+  grid-row: 1 / -3;
+  z-index: 1;
+  width: 100%;
+}
+
+.gamehub-logo {
+  grid-column: 1 / -3;
+  grid-row: 2 / -2;
+  z-index: 3;
+  border: 1px solid var(--black);
+  width: 100%;
+}
+
+.gamehub-pic-2 {
+  grid-column: 4 / -2;
+  grid-row: 3 / -1;
+  z-index: 2;
+  border: 1px solid var(--black);
+  width: 100%;
+}
