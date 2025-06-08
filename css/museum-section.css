@@ -40,3 +40,17 @@
   border: 1px solid var(--black);
   width: 100%;
 }
+
+@media (max-width: 1400px) {
+  .museum-grid {
+    grid-template-columns: 31px 12px 156px 111px 65px 39px;
+    grid-template-rows: 143px 12px 52px 52px 59px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .museum-grid {
+    grid-template-columns: 25px 10px 125px 89px 52px 31px;
+    grid-template-rows: 114px 10px 42px 42px 47px;
+  }
+}

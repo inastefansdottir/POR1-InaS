@@ -65,7 +65,7 @@ grids.forEach(grid => {
         }
       });
     },
-    { threshold: 0.5 } // Trigger when 50% of the grid is
+    { threshold: 0.5 } // Trigger when 50% of the grid is in view
   );
 
   // Start observing this grid

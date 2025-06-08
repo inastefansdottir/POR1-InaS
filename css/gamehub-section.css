@@ -41,3 +41,28 @@
   border: 1px solid var(--black);
   width: 100%;
 }
+
+@media (max-width: 1400px) {
+  .gamehub-grid {
+    grid-template-columns: 31px 10px 79px 87px 174px 10px;
+    grid-template-rows: 140px 10px 10px 27px 68px 68px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .gamehub-grid {
+    grid-template-columns: 25px 8px 63px 70px 139px 8px;
+    grid-template-rows: 112px 8px 8px 22px 54px 54px;
+  }
+}
+
+@media (max-width: 740px) {
+  .gamehub-grid {
+    order: 1;
+  }
+
+  .gamehub-paragraph {
+    order: 2;
+    height: 210px;
+  }
+}
