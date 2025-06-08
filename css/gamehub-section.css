@@ -15,8 +15,8 @@
 
 .gamehub-grid {
   display: grid;
-  grid-template-columns: 48px 16px 135px 149px 297px 18px;
-  grid-template-rows: 216px 16px 18px 45px 115px 72px;
+  grid-template-columns: 48px 16px 122px 134px 267px 16px;
+  grid-template-rows: 216px 16px 16px 41px 104px 105px;
 }
 
 .gamehub-pic-1 {
